@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JagrukJester</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header, footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1, h2, h3 {
+      color: #ff5722;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .hero a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #ff5722;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .about, .contact {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    form {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      padding: 0.75rem;
+      border: none;
+      border-radius: 4px;
+    }
+    button {
+      padding: 0.75rem;
+      background: #ff5722;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .contact-links {
+      margin-top: 1rem;
+    }
+    .contact-links a {
+      display: block;
+      margin: 0.25rem 0;
+      color: #ff5722;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>JagrukJester</h1>
+    <p>Satire that stings – Memes that matter</p>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to <em>JagrukJester</em></h2>
+    <p><em>Satirical memes</em> that hit where it hurts – laugh, think, repeat.</p>
+    <a href="https://www.instagram.com/jagrukjester/" target="_blank">Follow on Instagram</a>
+  </section>
+
+  <section class="gallery">
+    <img src="https://via.placeholder.com/400x300?text=Political+Satire" alt="Political satire meme">
+    <img src="https://via.placeholder.com/400x300?text=Social+Satire" alt="Social satire meme">
+    <img src="https://via.placeholder.com/400x300?text=Pop+Culture+Satire" alt="Pop culture satire">
+    <img src="https://via.placeholder.com/400x300?text=Dark+Humor" alt="Dark humor meme">
+    <img src="https://via.placeholder.com/400x300?text=Witty+Indian+Meme" alt="Indian witty meme">
+  </section>
+
+  <section class="about">
+    <h2>About <em>JagrukJester</em></h2>
+    <p><em>JagrukJester</em> is your daily dose of <strong>truth wrapped in humor</strong>. From politics to pop culture, our memes are sharp, witty, and unapologetically real. We believe in making people laugh—and think—at the same time.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Get in Touch</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="4" placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-links">
+      <h3>Reach Out to JagrukJester</h3>
+      <a href="mailto:harshanime12345@gmail.com">📧 harshanime12345@gmail.com</a>
+      <a href="https://www.instagram.com/jagrukjester/" target="_blank">📸 @jagrukjester</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 JagrukJester – Satire that stings</p>
+  </footer>
+
+</body>
+</html>
